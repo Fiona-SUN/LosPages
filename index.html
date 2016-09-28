@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>LosPages</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<nav class="left_nav">
+		<div class="leftNavTitle">
+			<a href="###"></a>
+		</div>
+		<div class="leftNavContent">
+			<ul>
+				<li class="welcom_icon" id="welcome_icon">
+					<img src="./images/nav_bgA01.png"  data-index="1">
+				</li>
+				<li class="gowhere_icon" id="gowhere_icon">
+					<img src="./images/nav_bgA02.png" data-index="2">
+				</li>
+				<li class="dowhat_icon" id="dowhat_icon">
+					<img src="./images/nav_bgA03.png" data-index="3">
+				</li>
+				<li class="shopping_icon" id="shopping_icon">
+					<img src="./images/nav_bgA04.png" data-index="4">
+				</li>
+				<li class="experence_icon" id="experence_icon">
+					<img src="./images/nav_bgA05.png" data-index="5">
+				</li>
+				<li class="letsgo_icon" id="letsgo_icon">
+					<img src="./images/nav_bgA06.png" data-index="6">
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<nav class="right_nav">
+		<ul>
+			<li>
+				<a class="searchContent rightNavContent" href="###">
+					<div class="rightContent">
+						<input type="text" placeholder="请输入关键字">
+						<input type="button" value="搜索">
+					</div>
+					<div class="rightIcon"></div>
+				</a>
+			</li>
+			<li>
+				<a class="myArrangment rightNavContent" href="###">
+					<div class="rightContent">
+						<span>我的行程</span>
+					</div>
+					<div class="rightIcon"></div>
+				</a>
+			</li>
+			<li>
+				<a class="downloadHelp rightNavContent" href="###">
+					<div class="rightContent">
+						<span>下载旅游指南</span>
+					</div>
+					<div class="rightIcon"></div>
+				</a>
+			</li>
+			<li> 
+				<a class="englishStation rightNavContent" href="###">
+					<div class="rightContent">
+						<span>英文站</span>
+					</div>
+					<div class="rightIcon"></div>
+				</a>
+			</li>
+			<li>
+				<a class="followUs rightNavContent" href="###">
+					<div class="rightContent">
+						<span>关注我们</span>
+					</div>
+					<div class="rightIcon"></div>
+				</a>
+			</li>
+			<li>
+				<a class="toTop rightNavContent" id="toTop">
+					<div class="rightIcon"></div>
+				</a>
+			</li>
+		</ul>
+	</nav>
+	
+	<div class="welcome_box content_box">
+		<div class="title" title="hello,天使之城">洛杉矶</div>
+		<p class="content">
+			洛杉矶，一座孕育梦想的城市，也成就了无数人的梦想。纯净的天空、茂密的棕榈林、蔚蓝的海岸和璀璨的好莱坞群星……白天活力四射，夜晚妩媚动人。集万千宠爱于一身的洛杉矶，凝聚美国文化精髓，荟萃美食购物菁华，早已成为全球瞩目的焦点，一座不断缔造传奇的魅力之都。
+		</p>
+
+		<div>
+			<div class="changePhoto">
+				<div id="img_container">
+					<div class="img_part">
+						<img src="./images/images_cutdown/011.jpg">
+					</div>
+					<div class="img_part">
+						<img src="./images/images_cutdown/012.jpg">
+					</div>
+					<div class="img_part">
+						<img src="./images/images_cutdown/013.jpg">
+					</div>
+				</div>
+				<div class="change_btn">
+					<ul id="btn_container">
+						<li class="active"></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+			<div class="right_part">
+				<ul>
+					<li>
+						<a href="###" title="简介" class="introduce">简介</a>
+					</li>
+					<li>
+						<a href="###" title="历史" class="history">历史</a>
+					</li>
+					<li>
+						<a href="###" title="精彩活动" class="activity">精彩活动</a>
+					</li>
+					<li>
+						<a href="###" title="位置" class="location">位置</a>
+					</li>
+					<li>
+						<a href="###" title="气候" class="climate">气候</a>
+					</li>
+					<li>
+						<a href="###" title="联系方式" class="contact">联系方式</a>
+					</li>
+				</ul>
+				<img src="./images/logoEnglish.png">
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		
+	</div>
+
+	<div class="gowhere_box content_box">
+		<div class="title" title="全球游客最喜欢的洛杉矶旅游景点"></div>
+		<p class="content">
+			无论是明星云集的好莱坞，还是动感无限的市中心，从星光熠熠的比佛利山庄，到休闲惬意的风情海滩，每一处都值得您流连忘返。
+		</p>
+
+		<div class="losMap" id="losMap">
+			<a class="pos01 current" data-index="1">圣莫尼卡</a>
+			<a class="pos02" data-index="2">好莱坞<br>环球影城</a>
+			<a class="pos03" data-index="3">罗迪欧<br>大道</a>
+			<a class="pos04" data-index="4">华特迪士尼<br>音乐厅</a>
+			<a class="pos05" data-index="5">好莱坞<br>星光大道</a>
+			<a class="pos06" data-index="6">活力洛城<br>体育娱乐中心</a>
+		</div>
+
+		<div class="photoBox">
+			<div class="photoItem">
+				<ul id="boxLocation">
+					<li>
+						<div class="img_box">
+							<img src="./images/images_cutdown/001.jpg">
+						</div>
+						<div class="description">
+							圣莫妮卡广场（Santa Monica Place）临近海滩，这里汇集了洛杉矶高档购物商店、餐厅及休闲场所，是游客们购物休闲的好去处。
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/images_cutdown/002.jpg">
+						</div>
+						<div class="description">
+							圣莫妮卡港（Santa Monica Pier）景色怡人，还有一座名为“太平洋公园”（Pacific Park）的游乐园，是家庭游客人的首选目的地之一。
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/images_cutdown/003.jpg">
+						</div>
+						<div class="description">
+							第三购物步行街(Third Street Promenade)是游客休闲的好去处，这里聚集了各种各样的路边歌手、艺术家，还有电影院、商店和餐厅为游客提供休闲服务。
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/images_cutdown/004.jpg">
+						</div>
+						<div class="description">
+							好莱坞环球影城独一无二的精彩体验将为您和您的家人带来无限欢畅感受！
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/images_cutdown/005.jpg">
+						</div>
+						<div class="description">
+							好莱坞环球影城汇集众多刺激有趣的娱乐设施，环球影城将给您充满精彩与刺激的一天。
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/images_cutdown/006.jpg">
+						</div>
+						<div class="description">
+							环球城市大道是集娱乐，餐饮，购物为一体的大型娱乐场所。如果您想在洛杉矶体验一段充满惊喜刺激的旅程，那么环球城市大道绝对是您的首选之地。
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/images_cutdown/007.jpg">
+						</div>
+						<div class="description">
+							这里聚集了世界闻名、最受公众欢迎的国际顶级大师的设计作品。
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/images_cutdown/008.jpg">
+						</div>
+						<div class="description">
+							罗迪欧大道坐落在比弗利山庄的罗迪欧大道，是洛杉矶市最高档、最精美的服饰商业街。
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/images_cutdown/009.jpg">
+						</div>
+						<div class="description">
+							华特迪士尼音乐厅 (Walt Disney Concert Hall) 的建筑师把功能和美学完美的结合在一起，让建筑上升成为作品，名垂青史。
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/images_cutdown/010.jpg">
+						</div>
+						<div class="description">
+							圣莫妮卡广场（Santa Monica Place）临近海滩，这里汇集了洛杉矶高档购物商店、餐厅及休闲场所，是游客们购物休闲的好去处。
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/images_cutdown/011.jpg">
+						</div>
+						<div class="description">
+							华特迪士尼音乐厅 (Walt Disney Concert Hall) 是这个城市跳动的音符。
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/images_cutdown/012.jpg">
+						</div>
+						<div class="description">
+							华特迪士尼音乐厅 (Walt Disney Concert Hall) 将各种美学柔和在一起，体现着缔造者的气质。
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/images_cutdown/013.jpg">
+						</div>
+						<div class="description">
+							迈克尔杰克逊于1984年在好莱坞星光大道上留下手印。
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/images_cutdown/014.jpg">
+						</div>
+						<div class="description">
+							活力洛城体育娱乐中心(L.A. LIVE)包括六条街区及一个大型公共广场，这里拥有15家电影院、饭店、夜总会、商店、ESPN的西海岸广播总部、格莱美博物馆以及一家在洛杉矶展览中心，还有斯台普斯中心及其旁边拥有1,100间客房的饭店。
+						</div>
+					</li>
+					
+					<li>
+						<div class="img_box">
+							<img src="./images/images_cutdown/015.jpg">
+						</div>
+						<div class="description">
+							诺基亚剧院从2007年开始运营，是Anschutz Entertainment Group位于活力洛城的一部分，毗邻着斯台普斯中心。从2008年起，九月二十一号在ABC电视台播出的艾美奖颁奖典礼从圣殿礼堂搬到了诺基亚剧院。
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/images_cutdown/016.jpg">
+						</div>
+						<div class="description">
+							活力洛城体育娱乐中心(L.A. LIVE)位于洛杉矶的市中心，是集饭店、餐饮、购物和娱乐为一体的综合娱乐性区域，包括一个大型的公共广场、15家电影院、饭店、夜总会、商店、ESPN的西海岸广播总部、格莱美音乐(奖)博物馆、斯台普斯球馆等。
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/images_cutdown/001.jpg">
+						</div>
+						<div class="description">
+							圣莫妮卡广场（Santa Monica Place）临近海滩，这里汇集了洛杉矶高档购物商店、餐厅及休闲场所，是游客们购物休闲的好去处。
+						</div>
+					</li>
+					<div class="clearfix"></div>
+				</ul>
+			</div>
+			<a class="prev" id="gowhere_prev"></a>
+			<a class="next" id="gowhere_next"></a>
+		</div>
+		
+	</div>
+	
+	<div class="dowhat_box content_box">
+		<div class="title">
+			<span class="f30">在<span class="f36">旅行</span>的~过程中~</span><br>
+			<span class="f50">绝对不可错过这些体验~~</span>
+		</div>
+		<p class="content">
+			游览著名电影拍摄地好莱坞环球影城，到童话王国迪士尼乐园感受童真，在运动粉丝朝圣地斯台普斯中心感受昂扬斗志……洛杉矶缤纷精彩等你来体验。
+		</p>
+
+		<ul class="dowhat_list">
+			<li class="dowhat_li">
+				<a class="pic">
+					<img src="./images/dowhat/01.jpg" alt="Katsuya at L.A. LIVE" title="Katsuya at L.A. LIVE">
+					<div class="pic_title">Katsuya at L.A. LIVE</div>
+				</a>
+				<div class="desc">
+					<a class="pic_btn color1">美食></a>
+					<a class="pic_menu">· 高级餐厅推荐</a>
+					<a class="pic_menu">· 洛杉矶美食汇总</a>
+				</div>
+			</li>
+
+			<li class="dowhat_li">
+				<a class="pic">
+					<img src="./images/dowhat/02.jpg" alt="洛杉矶环球影城希尔顿酒店" title="洛杉矶环球影城希尔顿酒店">
+					<div class="pic_title">洛杉矶环球影城希尔顿酒店</div>
+				</a>
+				<div class="desc">
+					<a class="pic_btn color2">酒店></a>
+					<a class="pic_menu">· 洛杉矶MICE酒店推荐</a>
+					<a class="pic_menu">· 洛杉矶酒店汇总</a>
+				</div>
+			</li>
+
+			<li class="dowhat_li">
+				<a class="pic">
+					<img src="./images/dowhat/03.jpg" alt="好莱坞杜莎夫人蜡像馆" title="好莱坞杜莎夫人蜡像馆">
+					<div class="pic_title">好莱坞杜莎夫人蜡像馆</div>
+				</a>
+				<div class="desc">
+					<a class="pic_btn color3">活动></a>
+					<a class="pic_menu">· 洛杉矶活动汇总</a>
+					<a class="pic_menu">· 海滩城市地区活动场馆推荐</a>
+				</div>
+			</li>
+
+			<li class="dowhat_li">
+				<a class="pic">
+					<img src="./images/dowhat/04.jpg" alt="华特迪士尼音乐听厅" title="华特迪士尼音乐听厅">
+					<div class="pic_title">华特迪士尼音乐听厅</div>
+				</a>
+				<div class="desc">
+					<a class="pic_btn color4">文化></a>
+					<a class="pic_menu">· 洛杉矶文化探索</a>
+					<a class="pic_menu">· 洛杉矶文化汇总</a>
+				</div>
+			</li>
+
+			<li class="dowhat_li">
+				<a class="pic">
+					<img src="./images/dowhat/05.jpg" alt="好莱坞环球影城" title="好莱坞环球影城">
+					<div class="pic_title">好莱坞环球影城</div>
+				</a>
+				<div class="desc">
+					<a class="pic_btn color5">娱乐></a>
+					<a class="pic_menu">· 洛杉矶娱乐汇总</a>
+					<a class="pic_menu">· 洛杉矶娱乐休闲活动推荐</a>
+				</div>
+			</li>
+
+			<li class="dowhat_li">
+				<a class="pic">
+					<img src="./images/dowhat/06.jpg" alt="斯台普斯中心" title="斯台普斯中心">
+					<div class="pic_title">斯台普斯中心</div>
+				</a>
+				<div class="desc">
+					<a class="pic_btn color6">体育></a>
+					<a class="pic_menu">· 洛杉矶体育场馆推荐</a>
+					<a class="pic_menu">· 洛杉矶体育汇总</a>
+				</div>
+			</li>
+
+		</ul>
+	</div>
+
+	<div class="shopping_box content_box">
+		<div class="title">
+			去<span class="f70">购物天堂</span>洛杉矶
+		</div>
+		<p class="content">
+			欧洲高级名品聚集的比佛利山庄、奥特莱斯、大型购物商场以及临街小店，洛杉矶购物体验精彩纷呈，令您乐购其中。
+		</p>
+		
+		<ul class="shopping_list"> 
+			<li class="shopping_li">
+				<img src="./images/shopping/001.jpg" alt="城堡奥特莱斯">
+				<div class="pic_title">城堡奥特莱斯</div>
+				<div class="pic_desc">
+					<span class="pic_desc_title">城堡奥特莱斯</span>
+					<span>城堡奥特莱斯 (The Citadel) 是洛杉矶唯一一个位于市区的奥特莱斯。</span>
+					<div class="pic_desc_top"></div>
+					<div class="pic_desc_bottom"></div>
+				</div>
+			</li>
+
+			<li class="shopping_li">
+				<img src="./images/shopping/002.jpg" alt="格罗夫购物中心">
+				<div class="pic_title">格罗夫购物中心</div>
+				<div class="pic_desc">
+					<span class="pic_desc_title">格罗夫购物中心</span>
+					<span>举世闻名的格罗夫购物中心将购物、餐饮、娱乐完美融合。这里汇集了世界最热门的品牌名店。</span>
+					<div class="pic_desc_top"></div>
+					<div class="pic_desc_bottom"></div>
+				</div>
+			</li>
+
+			<li class="shopping_li">
+				<img src="./images/shopping/003.jpg" alt="第三购物步行街">
+				<div class="pic_title">第三购物步行街</div>
+				<div class="pic_desc">
+					<span class="pic_desc_title">第三购物步行街</span>
+					<span>
+						第三购物步行街是圣莫尼卡最有名的一条街。街道两旁有许多温馨浪漫的咖啡厅，电影院和很多备受年轻人喜爱的小商店。
+					</span>
+					<div class="pic_desc_top"></div>
+					<div class="pic_desc_bottom"></div>
+				</div>
+			</li>
+
+			<li class="shopping_li">
+				<img src="./images/shopping/004.jpg" alt="Westfield 世纪城购物中心">
+				<div class="pic_title">Westfield 世纪城购物中心</div>
+				<div class="pic_desc">
+					<span class="pic_desc_title">Westfield 世纪城购物中心</span>
+					<span>
+						Westfield 世纪城购物中心是洛杉矶首屈一指的开放式购物中心，该中心集购物、餐饮、娱乐于一体。
+					</span>
+					<div class="pic_desc_top"></div>
+					<div class="pic_desc_bottom"></div>
+				</div>
+			</li>
+
+			<li class="shopping_li">
+				<img src="./images/shopping/005.jpg" alt="好莱坞高地中心">
+				<div class="pic_title">好莱坞高地中心</div>
+				<div class="pic_desc">
+					<span class="pic_desc_title">好莱坞高地中心</span>
+					<span>
+						高地是好莱坞的心脏，购物广场的中心拥有传奇色彩的好莱坞标志和好莱坞山脉的壮丽景色。
+					</span>
+					<div class="pic_desc_top"></div>
+					<div class="pic_desc_bottom"></div>
+				</div>
+			</li>
+
+			<li class="shopping_li">
+				<img src="./images/shopping/006.jpg" alt="圣莫妮卡广场">
+				<div class="pic_title">圣莫妮卡广场</div>
+				<div class="pic_desc">
+					<span class="pic_desc_title">圣莫妮卡广场</span>
+					<span>
+						圣莫妮卡广场汇集了洛杉矶高档购物商店、餐厅及休闲场所，这里毗邻第三大道与海滩仅隔两个街区，是您探索圣莫妮卡地区不容错过的地方。
+					</span>
+					<div class="pic_desc_top"></div>
+					<div class="pic_desc_bottom"></div>
+				</div>
+			</li>
+
+			<li class="shopping_li">
+				<img src="./images/shopping/007.jpg" alt="比佛利购物中心">
+				<div class="pic_title">比佛利购物中心</div>
+				<div class="pic_desc">
+					<span class="pic_desc_title">比佛利购物中心</span>
+					<span>
+						比佛利购物中心是南加州地区首屈一指的高档时尚购物场所，地理位置得天独厚，位于比佛利山庄和西好莱坞两市的交界处。
+					</span>
+					<div class="pic_desc_top"></div>
+					<div class="pic_desc_bottom"></div>
+				</div>
+			</li>
+
+			<li class="shopping_li">
+				<img src="./images/shopping/008.jpg" alt="洛杉矶国际机场购物中心">
+				<div class="pic_title">洛杉矶国际机场购物中心</div>
+				<div class="pic_desc">
+					<span class="pic_desc_title">洛杉矶国际机场购物中心</span>
+					<span>
+						位于美国八大机场之一的洛杉矶国际机场一侧，是集餐饮、购物和休闲于一天的综合购物中心。
+					</span>
+					<div class="pic_desc_top"></div>
+					<div class="pic_desc_bottom"></div>
+				</div>
+			</li>
+		</ul>
+
+		<div class="shop_la_bg">
+			<div class="shop_la"></div>
+		</div>
+	</div>	
+
+	<div class="experence_box content_box">
+		<div class="title">
+			<span class="f65">中国游客</span><br>
+			<span class="f43">"私人定制"的至尊体验~~</span>
+		</div>
+		<p class="content">
+			唐人街、中文标示、会说中文的工作人员，还有熟悉的中国菜肴……洛杉矶，我们与你零距离
+		</p>
+		
+		
+		<div class="photoBox">
+			<div class="photoItem" id="exp_photoItem">
+				<ul >
+					<li>
+						<div class="img_box">
+							<img src="./images/experence/001.jpg">
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/experence/002.jpg">
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/experence/003.jpg">
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/experence/004.jpg">
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/experence/005.jpg">
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/experence/006.jpg">
+						</div>
+					</li>
+
+					<li>
+						<div class="img_box">
+							<img src="./images/experence/001.jpg">
+						</div>
+					</li>
+				</ul>
+			</div>
+		
+	
+			<div class="change_btn">
+				<ul id="experence_changPhoto">
+					<li class="active" data-index="0"></li>
+					<li data-index="1"></li>
+					<li data-index="2"></li>
+					<li data-index="3"></li>
+					<li data-index="4"></li>
+					<li data-index="5"></li>
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="letsgo_box content_box">
+		<div class="letsgo_logo"></div>
+		<div class="content">
+			<p>有朋自远方来，不亦乐乎？</p>
+			<p>洛杉矶的热门景点不胜枚举，饕餮的视觉盛宴期待你来感受和分享。</p>
+			<p class="title">你的美国之旅，就从洛杉矶开始吧~~</p>
+		</div>
+
+		<div class="title_area1 title_area">
+			<div class="dashed l"></div>
+			<div class="title">推荐旅行社</div>
+			<div class="dashed r"></div>
+		</div>
+
+		<ul class="letsgo_list">
+			<li>
+				<img src="./images/letsgo/01.png">
+			</li>
+			<li>
+				<img src="./images/letsgo/02.png">
+			</li>
+			<li>
+				<img src="./images/letsgo/03.png">
+			</li>
+			<li>
+				<img src="./images/letsgo/04.png">
+			</li>
+			<li>
+				<img src="./images/letsgo/05.png">
+			</li>
+			<li>
+				<img src="./images/letsgo/06.png">
+			</li>
+			<li>
+				<img src="./images/letsgo/07.png">
+			</li>
+			<li>
+				<img src="./images/letsgo/08.png">
+			</li>
+			<li>
+				<img src="./images/letsgo/09.png">
+			</li>
+			<li>
+				<img src="./images/letsgo/10.png">
+			</li>
+			<li>
+				<img src="./images/letsgo/11.png">
+			</li>
+			<li>
+				<img src="./images/letsgo/12.png">
+			</li>
+		</ul>
+
+		<div class="title_area2 title_area">
+			<div class="dashed l"></div>
+			<div class="title">旅游达人体验</div>
+			<div class="dashed r"></div>
+		</div>
+
+		<ul class="dowhat_list">
+			<li class="dowhat_li">
+				<a class="pic">
+					<img src="./images/dowhat/01.jpg" alt="Katsuya at L.A. LIVE" title="Katsuya at L.A. LIVE">
+					<div class="pic_title">Katsuya at L.A. LIVE</div>
+				</a>
+				<div class="desc">
+					<a class="pic_btn color1">美食></a>
+					<a class="pic_menu">· 高级餐厅推荐</a>
+					<a class="pic_menu">· 洛杉矶美食汇总</a>
+				</div>
+			</li>
+
+			<li class="dowhat_li">
+				<a class="pic">
+					<img src="./images/dowhat/02.jpg" alt="洛杉矶环球影城希尔顿酒店" title="洛杉矶环球影城希尔顿酒店">
+					<div class="pic_title">洛杉矶环球影城希尔顿酒店</div>
+				</a>
+				<div class="desc">
+					<a class="pic_btn color2">酒店></a>
+					<a class="pic_menu">· 洛杉矶MICE酒店推荐</a>
+					<a class="pic_menu">· 洛杉矶酒店汇总</a>
+				</div>
+			</li>
+
+			<li class="dowhat_li">
+				<a class="pic">
+					<img src="./images/dowhat/03.jpg" alt="好莱坞杜莎夫人蜡像馆" title="好莱坞杜莎夫人蜡像馆">
+					<div class="pic_title">好莱坞杜莎夫人蜡像馆</div>
+				</a>
+				<div class="desc">
+					<a class="pic_btn color3">活动></a>
+					<a class="pic_menu">· 洛杉矶活动汇总</a>
+					<a class="pic_menu">· 海滩城市地区活动场馆推荐</a>
+				</div>
+			</li>
+		</ul>
+	
+		<div class="title_area3 title_area">
+			<div class="dashed l"></div>
+			<div class="title">旅行无忧小助手</div>
+			<div class="dashed r"></div>
+		</div>
+
+	</div>
+
+	<div class="footer">
+
+		<div class="copyright">
+			<div class="up_cr">
+				<ul>
+					<li>
+						<span>合作媒体:</span>
+						<a href="###">旅游报</a>
+						<a href="###">蚂蜂窝</a>
+						<a href="###">携程</a>
+						<a href="###">旅讯</a>
+						<a href="###">旅业连接</a>
+						<a href="###">环球旅讯</a>
+						<a href="###">旅行家</a>
+						<a href="###">时尚旅游</a>
+						<a href="###">中国会议产业网</a>
+					</li>
+					<li>
+						<span>合作伙伴:</span>
+						<a href="###">洛杉矶国际机场</a>
+						<a href="###">美国运通</a>
+						<a href="###">美国航空</a>
+						<a href="###">好莱坞环球影城</a>
+						<a href="###">碧山</a>
+					</li>
+				</ul>
+			</div>
+			<div class="down_cr">
+				<div class="l">
+				 	<ul>
+				 		<li>
+				 			<a href="###">媒体中心</a>
+							<a href="###">联系我们</a>
+							<a href="###">网站地图</a>
+							<a href="###">隐私政策</a>
+							<a href="###">英文站</a>
+				 		</li>
+				 		<li class="copyright_font"> 
+				 			<span>©2014洛杉矶会议及旅游局版权所有 </span>
+				 			<a href="###">京ICP备05063701号-37</a>
+				 		</li>
+				 	</ul>
+				</div>
+				<div class="mail r">
+					<span>邮箱订阅:</span>
+					<div class="mail_input">
+						<a class="submit_btn r">提交</a>
+						<input type="text" class="input_cr r" placeholder="请输入您的邮箱">	
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<div class="welcome_bg bg_photo" id="welcome_bg">
+		<img class="wallpaper_img" src="./images/images_cutdown/main-bg01.jpg">
+	</div>
+
+	<div class="gowhere_bg bg_photo" id="gowhere_bg">
+		<img class="wallpaper_img" src="./images/images_cutdown/main-bg02.jpg">
+	</div>
+
+	<div class="dowhat_bg bg_photo" id="dowhat_bg">
+		<img class="wallpaper_img" src="./images/images_cutdown/main-bg03.jpg">
+	</div>
+
+	<div class="shopping_bg bg_photo" id="shopping_bg">
+		<img class="wallpaper_img" src="./images/images_cutdown/main-bg04.jpg">
+	</div>
+
+	<div class="experence_bg bg_photo" id="experence_bg">
+		<img class="wallpaper_img" src="./images/images_cutdown/main-bg05.jpg">
+	</div>
+
+	<div class="letsgo_bg bg_photo" id="letsgo_bg">
+		<img class="wallpaper_img" src="./images/images_cutdown/main-bg06.jpg">
+	</div>
+
+
+	<script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="./js/common.js"></script>
+	<script type="text/javascript" src="./js/changeImg.js"></script>
+	<script type="text/javascript" src="./js/function.js"></script>
+	<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>

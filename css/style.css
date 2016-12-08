@@ -908,7 +908,7 @@ body{
 	z-index: -1;
 }
 .bg_photo .wallpaper_img{
-	width: 1400px;
+	width: 100%;
 	height: 650px;
 	display: none;
 }
